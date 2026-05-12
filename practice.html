@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img {
+            width: 100px;
+        }
+        .size-middle{
+            width: 50px;
+        }
+        #small-size{
+            width: 25px;
+        }
+    </style>
+</head>
+<body>
+<h1>スクレピング練習</h1>
+<img src="img/1.png"/>
+<a href="practice2.html">2ページ目に遷移</a>
+<img src="img/1.png"class="size-middle"/>
+<a href="practice2.html">３ページ目に遷移</a>
+<img src="img/1.png "class="size-middle" id="small-size"/>
+<a href="practice2.html">４ページ目に遷移</a>
+<script>
+    document.querySelector(".size-middle").addEventListener('click', function() {
+        alert('画像がクリックされました');
+    });
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
